@@ -1,17 +1,27 @@
 import { TextField } from './TextField'
 import { ColorButtons } from './ColorButtons'
 
-export const BadgeForm = ({ textFields, colorCombos }) => {
+export const BadgeForm = ({
+	colorCombos,
+	onChangeRecipient,
+	onChangeReason,
+	onChangeIcon,
+	onChangeColorCombo,
+}) => {
 	return (
 		<form
 			onSubmit={(e) => {
 				e.preventDefault()
 			}}
 		>
-			{textFields.map((textField) => (
-				<TextField name={textField} />
-			))}
-			<ColorButtons colorCombos={colorCombos} />
+			<TextField name='recipient' onType={onChangeRecipient} />
+			<TextField name='reason' onType={onChangeReason} />
+			<TextField name='icon' onType={onChangeIcon} />
+
+			<ColorButtons
+				colorCombos={colorCombos}
+				onChangeColorCombo={onChangeColorCombo}
+			/>
 		</form>
 	)
 }

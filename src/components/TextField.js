@@ -1,4 +1,4 @@
-export const TextField = ({ name }) => {
+export const TextField = ({ name, onType }) => {
 	const nameCapitalized = capitalize(name)
 	return (
 		<>
@@ -8,6 +8,9 @@ export const TextField = ({ name }) => {
 				type='text'
 				name={name}
 				placeholder={`Badge ${nameCapitalized}`}
+				onInput={(e) => {
+					onType(e.target.value)
+				}}
 			/>
 		</>
 	)
