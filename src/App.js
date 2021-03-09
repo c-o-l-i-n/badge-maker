@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { BadgeForm } from './components/BadgeForm'
+
+const textFields = ['recipient', 'reason', 'icon']
+const colorCombos = [
+	{
+		foreground: 'yellowgreen',
+		background: 'blue',
+	},
+	{
+		foreground: 'red',
+		background: 'yellow',
+	},
+	{
+		foreground: 'black',
+		background: 'white',
+	},
+	{
+		foreground: 'white',
+		background: 'purple',
+	},
+]
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<h1>Badge Maker</h1>
+			<BadgeForm textFields={textFields} colorCombos={colorCombos} />
+		</>
+	)
 }
 
-export default App;
+export default App
