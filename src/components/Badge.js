@@ -5,12 +5,8 @@ export const Badge = ({ icon }) => {
 			<i className='fa fa-circle-o fa-stack-2x badge-foreground'></i>
 			<i
 				id='icon'
-				className={`fas fa-${icon} fa-stack-1x badge-foreground`}
+				className={`fas fa-${icon || 'star'} fa-stack-1x badge-foreground`}
 			></i>
 		</div>
 	)
-}
-
-Badge.defaultProps = {
-	icon: 'star',
 }
