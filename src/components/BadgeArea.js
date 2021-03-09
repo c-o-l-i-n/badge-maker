@@ -6,7 +6,7 @@ export const BadgeArea = ({ recipient, reason, icon }) => {
 			<h1>{recipient}</h1>
 			<p>has recieved</p>
 			<Badge icon={icon} />
-			<h2 className='caplitalized'>"{reason}"</h2>
+			<h2>"{reason}"</h2>
 		</div>
 	)
 }
