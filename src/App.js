@@ -6,7 +6,6 @@ import { BadgeArea } from './components/BadgeArea'
 const App = () => {
 	const root = document.documentElement
 
-	const textFields = ['recipient', 'reason', 'icon']
 	const colorCombos = [
 		{
 			foreground: 'yellowgreen',
@@ -44,7 +43,6 @@ const App = () => {
 		<>
 			<h1>Badge Maker</h1>
 			<BadgeForm
-				textFields={textFields}
 				colorCombos={colorCombos}
 				onChangeRecipient={setRecipient}
 				onChangeReason={setReason}
