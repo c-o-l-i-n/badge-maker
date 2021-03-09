@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/badge-maker/static/css/main.cbb7a386.chunk.css",
-    "main.js": "/badge-maker/static/js/main.7fc9a4ca.chunk.js",
-    "main.js.map": "/badge-maker/static/js/main.7fc9a4ca.chunk.js.map",
+    "main.js": "/badge-maker/static/js/main.f3795a73.chunk.js",
+    "main.js.map": "/badge-maker/static/js/main.f3795a73.chunk.js.map",
     "runtime-main.js": "/badge-maker/static/js/runtime-main.fe7bb1ab.js",
     "runtime-main.js.map": "/badge-maker/static/js/runtime-main.fe7bb1ab.js.map",
     "static/js/2.5ce0bd0f.chunk.js": "/badge-maker/static/js/2.5ce0bd0f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fe7bb1ab.js",
     "static/js/2.5ce0bd0f.chunk.js",
     "static/css/main.cbb7a386.chunk.css",
-    "static/js/main.7fc9a4ca.chunk.js"
+    "static/js/main.f3795a73.chunk.js"
   ]
 }
