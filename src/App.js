@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import { BadgeForm } from './components/BadgeForm'
 import { BadgeArea } from './components/BadgeArea'
+import { Footer } from './components/Footer'
 
 const App = () => {
 	const root = document.documentElement
@@ -50,6 +51,7 @@ const App = () => {
 				onChangeColorCombo={onChangeColorCombo}
 			/>
 			<BadgeArea recipient={recipient} reason={reason} icon={icon} />
+			<Footer />
 		</>
 	)
 }
