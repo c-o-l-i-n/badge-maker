@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/badge-maker/static/css/main.cbb7a386.chunk.css",
+    "main.js": "/badge-maker/static/js/main.d5e23d33.chunk.js",
+    "main.js.map": "/badge-maker/static/js/main.d5e23d33.chunk.js.map",
+    "runtime-main.js": "/badge-maker/static/js/runtime-main.fe7bb1ab.js",
+    "runtime-main.js.map": "/badge-maker/static/js/runtime-main.fe7bb1ab.js.map",
+    "static/js/2.5ce0bd0f.chunk.js": "/badge-maker/static/js/2.5ce0bd0f.chunk.js",
+    "static/js/2.5ce0bd0f.chunk.js.map": "/badge-maker/static/js/2.5ce0bd0f.chunk.js.map",
+    "static/js/3.c9c514a5.chunk.js": "/badge-maker/static/js/3.c9c514a5.chunk.js",
+    "static/js/3.c9c514a5.chunk.js.map": "/badge-maker/static/js/3.c9c514a5.chunk.js.map",
+    "index.html": "/badge-maker/index.html",
+    "static/css/main.cbb7a386.chunk.css.map": "/badge-maker/static/css/main.cbb7a386.chunk.css.map",
+    "static/js/2.5ce0bd0f.chunk.js.LICENSE.txt": "/badge-maker/static/js/2.5ce0bd0f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe7bb1ab.js",
+    "static/js/2.5ce0bd0f.chunk.js",
+    "static/css/main.cbb7a386.chunk.css",
+    "static/js/main.d5e23d33.chunk.js"
+  ]
+}
