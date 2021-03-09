@@ -17,6 +17,15 @@ export const BadgeForm = ({
 			<TextField name='recipient' onType={onChangeRecipient} />
 			<TextField name='reason' onType={onChangeReason} />
 			<TextField name='icon' onType={onChangeIcon} />
+			<a
+				href='https://fontawesome.com/cheatsheet'
+				target='_blank'
+				rel='noopener noreferrer'
+			>
+				<small>Availible Icons</small>
+			</a>
+			<br />
+			<br />
 
 			<ColorButtons
 				colorCombos={colorCombos}
