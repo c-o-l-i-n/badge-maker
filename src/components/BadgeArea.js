@@ -12,7 +12,7 @@ export const BadgeArea = ({ recipient, reason, icon }) => {
 }
 
 BadgeArea.defaultProps = {
-	recipient: 'Colin',
-	reason: 'created a react app',
+	recipient: 'Your Friend',
+	reason: 'This Really Cool Badge',
 	icon: 'star',
 }

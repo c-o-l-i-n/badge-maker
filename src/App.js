@@ -26,8 +26,8 @@ const App = () => {
 		},
 	]
 
-	const [recipient, setRecipient] = useState('')
-	const [reason, setReason] = useState('')
+	const [recipient, setRecipient] = useState('Your Friend')
+	const [reason, setReason] = useState('This Really Cool Badge')
 	const [icon, setIcon] = useState('star')
 
 	const onChangeColorCombo = (colorComboIndex) => {
