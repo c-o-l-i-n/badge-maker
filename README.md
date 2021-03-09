@@ -1,5 +1,7 @@
 # Badge Maker
 
+## [Visit Live Site](https://c-o-l-i-n.github.io/badge-maker/)
+
 Make your own fun badges to screenshot and share with friends!
 
 This app was created with [React](https://github.com/facebook/react),
