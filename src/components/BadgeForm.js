@@ -22,7 +22,7 @@ export const BadgeForm = ({
 				target='_blank'
 				rel='noopener noreferrer'
 			>
-				<small>Availible Icons</small>
+				<small>Available Icons</small>
 			</a>
 			<br />
 			<br />
